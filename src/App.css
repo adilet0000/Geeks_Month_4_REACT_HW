@@ -13,10 +13,46 @@
   }
 }
 
+.App-title {
+  font-size: calc(6px + 2vmin);
+  font-weight: 400;
+  color: #fff;
+  background-color: #16181b;
+  margin: 0;
+}
+
 .App-header {
+  position: relative;
   background-color: #282c34;
-  min-height: 100vh;
+  height: 25vh;
   display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  position: relative;
+  background-color: #282c34;
+  height: 75vh;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  position: relative;
+  background-color: #282c34;
+  height: 25vh;
+  display: flex;
+  margin: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
